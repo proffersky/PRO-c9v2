@@ -11,13 +11,13 @@ function draw()
      bola.position.x = bola.position.x +5;
        }
        if (keyIsDown(LEFT_ARROW)){
-        bola.position.x = bola.position.x +5;
+        bola.position.x = bola.position.x -5;
           }
           if (keyIsDown(UP_ARROW)){
-            bola.position.x = bola.position.x +5;
+            bola.position.y = bola.position.y -5;
               }
               if (keyIsDown(DOWB_ARROW)){
-                bola.position.x = bola.position.x +5;
+                bola.position.y = bola.position.y +5;
                   }
 drawSprites();
 
