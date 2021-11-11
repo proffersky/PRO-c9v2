@@ -16,7 +16,7 @@ function draw()
           if (keyIsDown(UP_ARROW)){
             bola.position.y = bola.position.y -5;
               }
-              if (keyIsDown(DOWB_ARROW)){
+              if (keyIsDown(DOWN_ARROW)){
                 bola.position.y = bola.position.y +5;
                   }
 drawSprites();
